@@ -22,3 +22,8 @@ mvn fabric8:build
 ```bash
 mvn fabric8:deploy
 ```
+
+# Create pipeline
+```bash
+oc new-app -f maven-pipeline.yaml
+```

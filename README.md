@@ -2,18 +2,18 @@
 
 This is a maven + spring boot demo for openshift workshop
 
-# How to package 
+# How build s2i
 
 ```bash
-mvn clean package
+mvn fabric8:build
 ```
 
-# How to run test
+# How to generate source yaml
 ```bash
-mvn test
+mvn fabric8:source
 ```
 
-# How to run
+# How to deploy to openshift
 ```bash
-mvn spring-boot:run
+mvn fabric8:deploy
 ```
